@@ -1,0 +1,6 @@
+web:
+  image: jenkins:latest
+  ports:
+   - "8080:8080"
+  volumes:
+   - /vagrant/fig-jenkins/data/jenkins_home:/var/jenkins_home
